@@ -1,7 +1,10 @@
+
 import json
 import plotly
 import pandas as pd
 import numpy as np
+import joblib
+
 
 from nltk.stem import WordNetLemmatizer
 from nltk.tokenize import word_tokenize
@@ -9,7 +12,7 @@ from nltk.tokenize import word_tokenize
 from flask import Flask
 from flask import render_template, request
 from plotly.graph_objs import Bar
-from sklearn.externals import joblib
+
 from sqlalchemy import create_engine
 
 
@@ -139,7 +142,7 @@ def go():
 
 
 def main():
-    app.run(host='0.0.0.0', port=3001, debug=True)
+    app.run(host='127.0.0.1', port=5000, debug=True)
 
 
 if __name__ == '__main__':
