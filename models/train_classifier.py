@@ -12,12 +12,12 @@ from sklearn.multioutput import MultiOutputClassifier
 from sklearn.pipeline import Pipeline
 from sklearn.model_selection import train_test_split, GridSearchCV
 from sklearn.feature_extraction.text import CountVectorizer, TfidfTransformer
-from sklearn.externals import joblib
+import joblib
 from sklearn.metrics import classification_report, accuracy_score
 from sklearn.multiclass import OneVsRestClassifier
 from sklearn.svm import LinearSVC
 
-def load_data(database_filepath):
+def load_data(database_filepath = '../data/DisasterResponse.db'):
     '''
     input:
         database_filepath: File path where sql database was saved.
@@ -77,7 +77,7 @@ def evaluate_model(model, X_test, Y_test, category_names):
     for i in range(Y_test.shape[1]):
         print('%25s accuracy : %.2f' %(category_names[i], accuracy_score(Y_test[:,i], Y_pred[:,i])))
 
-def save_model(model, model_filepath):
+def save_model(model, model_filepath = 'classifier.pkl'):
     joblib.dump(model, model_filepath)
 
 
