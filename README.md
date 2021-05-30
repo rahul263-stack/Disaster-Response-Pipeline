@@ -30,7 +30,6 @@ File Description
 
 ![ScreenShot](img.png)
 
-## Example
-Type in: We have a lot of problem at Delma 75 Avenue Albert Jode, those people need water and food.
+
 
 ![Example](Example.png)
