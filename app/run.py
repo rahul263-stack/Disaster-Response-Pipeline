@@ -91,7 +91,7 @@ def index():
                 'yaxis': {
                     'title': "Count"
                 },
-                'xaxis': {
+                'axis': {
                     'title': "Category"
                 }
             }
@@ -109,7 +109,7 @@ def index():
                 'yaxis': {
                     'title': "Percentage"
                 },
-                'xaxis': {
+                'axis': {
                     'title': "Categories"
                 }
             }
