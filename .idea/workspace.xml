@@ -1,7 +1,31 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="7503078d-61e4-4f1c-afce-d528f9294902" name="Default Changelist" comment="" />
+    <list default="true" id="7503078d-61e4-4f1c-afce-d528f9294902" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/nltk.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/nltk_data/corpora/wordnet.zip" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/nltk_data/wordnet/LICENSE" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/nltk_data/wordnet/README" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/nltk_data/wordnet/adj.exc" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/nltk_data/wordnet/adv.exc" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/nltk_data/wordnet/citation.bib" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/nltk_data/wordnet/cntlist.rev" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/nltk_data/wordnet/data.adj" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/nltk_data/wordnet/data.adv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/nltk_data/wordnet/data.noun" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/nltk_data/wordnet/data.verb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/nltk_data/wordnet/index.adj" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/nltk_data/wordnet/index.adv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/nltk_data/wordnet/index.noun" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/nltk_data/wordnet/index.sense" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/nltk_data/wordnet/index.verb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/nltk_data/wordnet/lexnames" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/nltk_data/wordnet/noun.exc" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/nltk_data/wordnet/verb.exc" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/procfile" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/runtime.txt" beforeDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -102,7 +126,8 @@
       <workItem from="1631633285728" duration="2181000" />
       <workItem from="1631636714968" duration="208000" />
       <workItem from="1631639410360" duration="1936000" />
-      <workItem from="1632214567648" duration="5712000" />
+      <workItem from="1632214567648" duration="5969000" />
+      <workItem from="1632220669101" duration="230000" />
     </task>
     <servers />
   </component>
@@ -135,6 +160,6 @@
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
     <SUITE FILE_PATH="coverage/Disaster_Response_Pipeline$train_classifier.coverage" NAME="run Coverage Results" MODIFIED="1615862448128" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/app" />
     <SUITE FILE_PATH="coverage/Disaster_Response_Pipeline$run.coverage" NAME="run Coverage Results" MODIFIED="1615862662142" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
-    <SUITE FILE_PATH="coverage/Disaster_Response_Pipeline$Disaster_Response_Pipeline.coverage" NAME="Disaster-Response-Pipeline Coverage Results" MODIFIED="1632217717373" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/app" />
+    <SUITE FILE_PATH="coverage/Disaster_Response_Pipeline$Disaster_Response_Pipeline.coverage" NAME="Disaster-Response-Pipeline Coverage Results" MODIFIED="1632220685344" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/app" />
   </component>
 </project>
