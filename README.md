@@ -1,4 +1,12 @@
 # Disaster Response Pipeline Project
+1. Project Overview
+In this project, I'll apply data engineering to analyze disaster data from Figure Eight to build a model for an API that classifies disaster messages.
+
+data directory contains a data set which are real messages that were sent during disaster events. I will be creating a machine learning pipeline to categorize these events so that appropriate disaster relief agency can be reached out for help.
+
+This project will include a web app where an emergency worker can input a new message and get classification results in several categories. The web app will also display visualizations of the data.
+
+Here are a few screenshots of the web app.
 File Description
 
     .
