@@ -1,2 +1,2 @@
-WordNetLemmatizer
+WordNet
 word_tokenize
