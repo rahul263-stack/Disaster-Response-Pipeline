@@ -102,7 +102,7 @@
       <workItem from="1631633285728" duration="2181000" />
       <workItem from="1631636714968" duration="208000" />
       <workItem from="1631639410360" duration="1936000" />
-      <workItem from="1632214567648" duration="3741000" />
+      <workItem from="1632214567648" duration="4042000" />
     </task>
     <servers />
   </component>
@@ -123,13 +123,6 @@
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
-      <breakpoints>
-        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
-          <url>file://$PROJECT_DIR$/app/run.py</url>
-          <line>132</line>
-          <option name="timeStamp" value="1" />
-        </line-breakpoint>
-      </breakpoints>
       <default-breakpoints>
         <breakpoint type="python-exception">
           <properties notifyOnTerminate="true" exception="BaseException">
